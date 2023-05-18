@@ -1,13 +1,13 @@
 "use client"
 import { PersonApresentation } from "src/components/organisms/apresentation/personApresentation"
-import { StyledApresentation } from "./styled"
+import styled from "./styled.module.scss" 
 
 const Apresentation = () => {
     return (
-        <StyledApresentation>
+        <div className={`${styled["styled-apresentation"]}`}>
             <PersonApresentation />
-            <div></div>
-        </StyledApresentation>
+            <div>da</div>
+        </div>
     )
 }
 
