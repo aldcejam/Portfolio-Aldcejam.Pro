@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{ 
+}
+body{
+    @apply bg-color60;
+}
+
+.container{
+    width: min(90%, 1200px);
+    padding: 55px;
+}
