@@ -1,4 +1,4 @@
-import { Apresentation } from "src/components/template/apresentation";
+import { Apresentation } from "src/components/specific/template/apresentation";
 
 export default function Page() {
   return (

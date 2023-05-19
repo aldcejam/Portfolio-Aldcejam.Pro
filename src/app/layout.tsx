@@ -1,5 +1,12 @@
 import '@/styles/globals.css';
 import React from 'react';
+import { Plus_Jakarta_Sans } from '@next/font/google';
+
+const plus_jakarta_sans = Plus_Jakarta_Sans({
+  subsets: ['latin','cyrillic-ext','vietnamese'],
+  style: ['italic','normal'], 
+  weight: ["200",'300','400','500','600','700','800'],
+});
 
 export default function RootLayout({
   children,
@@ -11,7 +18,7 @@ export default function RootLayout({
       <head>
         <title>Aldcejam</title>
       </head>
-      <body>
+      <body className={plus_jakarta_sans.className}>
         {children}
       </body>
     </html>
