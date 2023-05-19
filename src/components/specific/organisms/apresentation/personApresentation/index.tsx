@@ -1,7 +1,7 @@
 export const PersonApresentation = () => {
     return (
-        <div className="bg-color30 relative">
-            <div className="absolute right-10 bottom-[310px]">
+        <div className={`bg-color30 relative`}>
+            <div className="absolute right-10 bottom-[320px] xl:bottom-[350px]">
                 <h1 className="text-color10 text-right relative">
                     <span className="text-2xl font-semibold">
                         Olá, me chamo <span>Aldcejam</span> 

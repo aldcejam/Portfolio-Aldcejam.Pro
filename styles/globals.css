@@ -2,13 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-html{ 
-}
-body{
+html {}
+
+body {
     @apply bg-color60;
 }
 
-.container{
+.container-default {
     width: min(90%, 1200px);
-    padding: 55px;
-} 
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.text-ala {
+    mix-blend-mode: difference;
+    /* Mistura de cores "difference" */
+}
